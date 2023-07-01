@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+
+.header {
+    background-image: url("Image/Background1.jpg");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    object-fit: cover;
+    height: 800px;
+    width: 100%;
+
+}
+.Buttons a{
+    color: white;
+}
+.Buttons a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s ease-in-out all;
+}
+
+.Email {
+    background-image: url("Image/background6-1920x1280.jpg");
+    background-size: cover;
+    object-fit: cover;
+}
+
+.box1 {
+    /* background: rgb(34,193,195);
+    background: linear-gradient(211deg, rgba(34,193,195,1) 17%, rgba(29,212,102,1) 84%); */
+    background-image: linear-gradient(to right top, #65ff7b, #44fe99, #1efcb2, #00fac8, #0df6da);
+    border-radius: 10px;
+}
+
+.box2 {
+    border-radius: 10px;
+    background-image: linear-gradient(to right top, #0f73ac, #0c75b3, #0c77ba, #1078c0, #167ac7);
+}
+
+.box3 {
+    border-radius: 10px;
+    background-image: linear-gradient(to right top, #cd2067, #d6275a, #dc314c, #df3e3e, #e04c2f);
+}
+
+.card {
+    border: none;
+}
+
+.Shedow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (max-width:1024px) {
+    .header {
+        height: 550px;
+        width: 100%;
+
+    }
+}
+
+@media (max-width:768px) {
+    .footermain {
+        text-align: center;
+    }
+
+    .icon {
+        justify-content: center;
+    }
+    .box1{
+        margin-bottom: 20px;
+    }
+    .box2{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:426px) {
+    .header {
+        height: 270px;
+
+    }
+   .card-1{
+    margin-bottom: 20px;
+   }
+}
